@@ -1,0 +1,81 @@
+
+
+/* 
+ * Styling Elements.
+ */
+legend {
+    font-size: 30px;
+}
+
+fieldset {
+    border: 3px rgb(0, 0, 0) solid;
+    width: 30%;
+    margin: 0px;
+}
+
+fieldset:hover {
+    text-shadow: rgb(168, 160, 143) 1px 0 10px;
+}
+
+/* 
+ * Styling classes
+ */
+.div-section {
+  padding: 250px;
+  padding-top: 50px;
+}
+.menu-item {
+    padding: 10px;
+    border: 10px;
+    font-family: Optima, sans-serif;
+}
+
+/* ---------Fits image and fieldset on div --------*/
+.split-menu {
+    padding: 60px;
+    padding-bottom: 100px;
+    background-color: white;
+}
+
+.split-image {
+    height: 625px;
+    width: 55%;
+    object-fit: cover;
+    margin: 20px 50px 0 ;
+    float: left;            /* Splits image to be on the left */
+    position: relative;
+    padding-bottom: 10%;
+    object-position: 0% 75%;
+}
+
+.center-fieldset {
+    margin: 0px 0px 40px;   /* Fieldset right */
+}
+/* ------------------------------------------------ */
+
+.section-page {
+    font-family: Optima, sans-serif;
+    text-align: center;
+    font-size: 30px;
+  
+    padding: 40px;
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+  }
+
+/* 
+ * Media Queries.
+ */
+ @media (max-width: 1300px) {
+    .split-image {
+      display: none;
+
+    }
+
+    .div-section {
+        display: flex; /* or inline-flex */
+        flex-direction: column;
+        padding: 150px;
+    }
+
+}

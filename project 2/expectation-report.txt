@@ -1,0 +1,62 @@
+
+                                                    Joselyne Tran
+Expectations Report:
+
+    Just going down the list, I believe I was able to meet most
+    of the expectations. I am fairly proud of my website, however, 
+    there is still a lot I wish I could have done better. Due to
+    having no time available this weekend, I had to finish Thursday
+    night in order to get this assignment in on-time. If I had more
+    time, I would have loved to go further in-depth with this project.
+    Listing the expectations:
+        1.) My website is for a made-up restuarant called "Modern Lily."
+            The audience I chose for my website is mainly towards those
+            into Asian-cuisine. While I feel it appeals to the younger
+            audience due to it's modern theme with darker, higher-contrast
+            images, I made sure to account for those who are less technology
+            advance by making each page as straight forward as possible.
+            I feel that it's theme is fairly consistent, but I do think
+            some of the images I chose do feel out of place.
+        2.) All of my content is original. I did all of the HTML and CSS
+            by myself. All of the images were from Unsplash which is a
+            a source for freely-usable images without the need to include
+            any license and permission.
+        3.) There are 5 seperate pages with one named index.html.
+        4.) Each page includes a header.
+        5.) The header has all the navigation links to each page.
+        6.) I've used meultiple media queries, however I defintely could have
+            gotten more into this. If I had more time, I would most defintely  
+            handle the image and element placement more because when it gets
+            small enough, some of the elements are not aligned correctly
+        7.) There are some external css sheets, but my css code is quite messy 
+            and I could have organized it much better.
+        8.) Every page includes at least one image. All of the alts describe the images, 
+            though I could have been morethorough with the names. 
+        9.) All images are in the "images" directory and all CSS files are in the
+            "css" directory. I did not use any Javascript.
+        10.)I did not use any libraries or frameworks.
+        11.)I checked each page with the Nu Validator and fix any errors.
+        12.)For the most part, the content is neatly aligned and consistent.
+        13.)Text should never bleed into other sections. 
+        14.)I used Optima and Tahoma fonts with a combination of font faces.
+        15.)The form is on the Contact page.
+        16.)There is an external link on the menu page (rate me text with starts). I 
+            only included this one because having more external links, I felt, wouldn't
+            have really fit with my theme.
+        17.)I consistently used kebab-case identifiers, but I defintely could have picked
+            better, more meaningful names for all of my identifiers.
+        18.)Will be zipped.
+        19.)All file names are lowercase.
+        20.)I have placed comments where I felt necessary but could have added more.
+        
+    I felt I went "above and beyond" with the feeling and atmosphere of my website. I really
+    wanted to mimic a modern restuarant website with the dark, high-contrast images and minimal
+    design. I think I was able to achieve this with some minor bugs here and there. Instead of
+    just choosing random images with random placement, I wanted it to all feel coherent and consistent.
+    There is a lot of things I could have improved on, but I am mostly happy with what I've done.
+
+    For hour count, I think I would give this around 15-18 hours.
+
+    For grade anticipation, I am really hoping for an A because I felt that I put a decent amount of care
+    and time into this project. But, I do expect in a range from B - A because of some minor things I could
+    have tweaked if I had more time.
