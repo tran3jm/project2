@@ -13,8 +13,9 @@ fieldset {
     margin: 0px;
 }
 
-fieldset:hover {
+.menu-item:hover {
     text-shadow: rgb(168, 160, 143) 1px 0 10px;
+    background:  rgba(231, 217, 217, 0.548);
 }
 
 /* 
@@ -23,7 +24,9 @@ fieldset:hover {
 .div-section {
   padding: 250px;
   padding-top: 50px;
+  padding-bottom: 150px;
 }
+
 .menu-item {
     padding: 10px;
     border: 10px;
@@ -63,19 +66,58 @@ fieldset:hover {
     line-height: 0.1em;
   }
 
+  .yelp {
+      padding-top: 40px;
+  }
+
 /* 
  * Media Queries.
  */
- @media (max-width: 1300px) {
-    .split-image {
-      display: none;
+ @media (max-width: 1360px) {
 
+    .split-menu {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .split-image {
+        margin: auto;
+        height: 400px;
+        width: 80%;
+        object-position: 0% 85%;
+
+    }
+
+    .menu-item {
+        padding-left: 40px;
+        border: 10px;
+        font-size: 25px;
+
+    }
+
+    .center-fieldset {
+        margin: auto;
+        width: 80%;
+    }
+
+    .yelp {
+        text-align: center;
     }
 
     .div-section {
         display: flex; /* or inline-flex */
         flex-direction: column;
         padding: 150px;
+
+    }
+
+    .chang {
+        margin: auto;
+        scale: 30%;
+        width: 100%;
+        height: 300px;
+        object-position: 0 18%;
     }
 
 }

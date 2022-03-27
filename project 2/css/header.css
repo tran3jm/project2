@@ -40,6 +40,10 @@
     
 }
 
+.altmenu {
+    display: none;
+}
+
 /* ---------- Dealing with dropdown menu ----------- */
 .dropdown-content a:hover {background-color: #ddd;}
 .dropdown:hover .dropdown-content {display: block;}
@@ -52,6 +56,21 @@
 .message {
     height: 100px;
 }
+
+.nav {
+    border: none;
+    padding-top: 75px;
+    padding-left: 100px;
+    padding-right: 100px;
+  
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+  
+    font-size: 17px;
+    font-weight: 550;
+    font-family: Tahoma, sans-serif;
+  }
 
 /* 
  * Styling ID's
@@ -68,4 +87,16 @@
     float:right;
     background-color: white;
     left: inherit;
+  }
+
+  @media (max-width: 1100px) {
+
+    .altmenu {
+        display: flow-root;
+    }
+
+    .nav {
+        display: none;
+    }
+
   }

@@ -96,22 +96,6 @@ a:hover {
   opacity: 1.0;
 }
 
-.nav {
-  padding-top: 75px;
-  padding-left: 200px;
-  padding-right: 200px;
-
-  border-top-style: solid;
-  margin: 10px 0 0 ;
-  text-align: center;
-  display: flex;
-  justify-content: space-around;
-
-  font-size: 17px;
-  font-weight: 550;
-  font-family: Tahoma, sans-serif;
-}
-
 .heading {
   padding-top: 90px;
   display: block;
@@ -217,7 +201,6 @@ a:hover {
 .click-button {
   border: 2px solid black;
   padding: 10px;
-  background-color: rgb(255, 250, 235);
   width: auto;
 
   font-family: Optima, sans-serif;
@@ -236,7 +219,15 @@ a:hover {
   }
 
   .skinny-image {
+    width: 100%;
     margin: auto;
     margin-bottom: 20px;
+  }
+}
+
+
+@media (min-width: 1567px) {
+  .click-button{
+    margin-bottom: 10%;
   }
 }

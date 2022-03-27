@@ -5,16 +5,30 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/sectioning.css">
   <link rel="modernlily" href="images/minimal.jpg">
+  <link rel="stylesheet" href="css/header.css">
   <title> Modern Lily </title>
 </head>
 <body>
    <!-- Header with link to each page -->
-  <header class = "nav">
-    <a href="index.html">HOME</a>
-    <a href="about.html">OUR STORY</a>
-    <a href="menu.html">MENU</a>
-    <a href="contact.html">CONTACT US</a>
-    <a href="location.html">LOCATION</a>
+  <header>
+    <div class = "nav">
+      <a href="index.html">HOME</a>
+      <a href="about.html">OUR STORY</a>
+      <a href="menu.html">MENU</a>
+      <a href="contact.html">CONTACT US</a>
+      <a href="location.html">LOCATION</a>
+    </div>
+
+    <div class = "dropdown altmenu">
+      <button class="dropbtn" id = "right">☰</button>
+      <div class="dropdown-content">
+          <a href="index.html">HOME</a>
+          <a href="about.html">OUR STORY</a>
+          <a href="menu.html">MENU</a>
+          <a href="contact.html">CONTACT US</a>
+          <a href="location.html">LOCATION</a>
+      </div>
+
   </header>
 
   <!-- Restaurant cover image -->
@@ -33,9 +47,8 @@
         and comes together to create a unique expierence of fine-dining. Modern Lily  
         has a little something for everyone. Come dine with us.
     </p>
-
     <!-- Button click directs to about page -->
-    <button class="click-button" onclick="window.location.href='about.html'" id = "right">LEARN MORE</button>
+    <button class="click-button" onclick="window.location.href='about.html'">LEARN MORE</button>
   </div>
   <!-- Background Image -->
   <img src="images/setting.jpeg" alt="setting" class = "background">
