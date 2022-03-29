@@ -4,17 +4,31 @@
 <head>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/sectioning.css">
+  <link rel="stylesheet" href="css/header.css">
   <link rel="modernlily" href="images/minimal.jpg">
   <title> Modern Lily </title>
 </head>
 <body>
    <!-- Header with link to each page -->
-  <header class = "nav">
-    <a href="index.html">HOME</a>
-    <a href="about.html">OUR STORY</a>
-    <a href="menu.html">MENU</a>
-    <a href="contact.html">CONTACT US</a>
-    <a href="location.html">LOCATION</a>
+  <header>
+    <div class = "nav">
+      <a href="index.html">HOME</a>
+      <a href="about.html">OUR STORY</a>
+      <a href="menu.html">MENU</a>
+      <a href="contact.html">CONTACT US</a>
+      <a href="location.html">LOCATION</a>
+    </div>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">HOME</a>
+        <a href="about.html">OUR STORY</a>
+        <a href="menu.html">MENU</a>
+        <a href="contact.html">CONTACT US</a>
+        <a href="location.html">LOCATION</a>
+    </div>
+    <span style="font-size:30px;color:black;cursor:pointer" onclick="openNav()" class="sidebar-icon altmenu">&#9776;</span>
+
   </header>
 
   <!-- Restaurant cover image -->
@@ -33,12 +47,12 @@
         and comes together to create a unique expierence of fine-dining. Modern Lily  
         has a little something for everyone. Come dine with us.
     </p>
-
     <!-- Button click directs to about page -->
-    <button class="click-button" onclick="window.location.href='about.html'" id = "right">LEARN MORE</button>
+    <button class="click-button" onclick="window.location.href='about.html'">LEARN MORE</button>
   </div>
-  <!-- Background Image -->
-  <img src="images/setting.jpeg" alt="setting" class = "background">
-<script src = "js/general_js.js"></script>
+  <!-- Background Image and Javascript -->
+  <img src="images/setting.jpeg" id="overlay" alt="setting" class = "background">
+  <script src = "js/general_js.js"></script>
+  <script src = "js/header.js"> </script>
 </body>
 </html>

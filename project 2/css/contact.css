@@ -6,9 +6,9 @@ form {
     border-radius: 5px;
     width: auto;
     padding-bottom: 120px;
-    margin-right: auto;
     padding-top: 25px;
-    display: block;  
+    display: flex;  
+    flex-direction: column;
     line-height: normal;                 
 }
 
@@ -47,13 +47,13 @@ label {
 input,
 textarea {
     height: 40px;
-    width: 600px;
+    width: 75%;
     box-sizing: border-box;
     display:block;
 }
 
 input {
-    margin-left: 30px;
+    margin-left: 4%;
   }
 
 input:focus,
@@ -66,28 +66,27 @@ legend {
 }
 
 span {
-    color: #a3a3a3;
     font-family: "Optima";
     font-size: 15px;
     font-weight: 300;
 }
 /* ------------------------------------------------ */
-
+.subtext {
+    color: #a3a3a3;
+}
 /*
  * Styling classes
  */
 .contact-fieldset {
     border: 0;
-    display: block;
-    margin: 1.0em auto;
-    width: fit-content;
+    margin: auto;
+    margin-left: 12%;
+    width: 90%;
 }
 
 /* 
  * Media Queries.
  */
- @media (max-width: 1056px) {
-    input, textarea {
-      margin: 0px;
-    }
+ @media (max-width: 1360px) {
+
   }

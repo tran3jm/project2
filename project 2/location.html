@@ -4,23 +4,22 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/sectioning.css">
+    <link rel="stylesheet" href="css/location.css">
     <link rel="modernlily" href="images/minimal.jpg">
     <title> Modern Lily Locations </title>
 </head>
 <body>
     <!-- Header with logo and dropdown icon w/ table -->
     <header>
-        <img src="images/minimal.jpg" alt="logo" class = "logo" id = "left">
-        <div class = "dropdown">
-            <button class="dropbtn" id = "right">☰</button>
-            <div class="dropdown-content">
-                <a href="index.html">HOME</a>
-                <a href="about.html">OUR STORY</a>
-                <a href="menu.html">MENU</a>
-                <a href="contact.html">CONTACT US</a>
-                <a href="location.html">LOCATION</a>
-            </div>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">HOME</a>
+            <a href="about.html">OUR STORY</a>
+            <a href="menu.html">MENU</a>
+            <a href="contact.html">CONTACT US</a>
+            <a href="location.html">LOCATION</a>
         </div>
+        <span style="font-size:30px;color:black;cursor:pointer" onclick="openNav()" class = "sidebar-icon">&#9776;</span>
     </header>
 
     <!-- Cover page with text -->
@@ -37,7 +36,7 @@
         <img src ="images/location2.jpg" alt = "lily location" class = "split-image">
 
          <!-- Richmond -->
-        <fieldset class = "center-fieldset">
+        <fieldset class = "center-fieldset address">
             <legend>Richmond, Virginia</legend>
             <div class = "menu-item"> Richmond, Virginia 
                 <span>2031 Wheaten Ct. Richmond, Virginia, 23930</span>
@@ -45,7 +44,7 @@
         </fieldset>
 
          <!-- Arlington -->
-         <fieldset class = "center-fieldset">
+         <fieldset class = "center-fieldset address">
             <legend>Arlington, Virginia</legend>
             <div class = "menu-item"> Arlington, Virginia 
                 <span>4307 Frogger Ct. Arlington, Virginia, 23930</span>
@@ -53,7 +52,7 @@
         </fieldset>
 
          <!-- Annandale -->
-        <fieldset class = "center-fieldset">
+        <fieldset class = "center-fieldset address">
             <legend>Annandale, Virginia</legend>
             <div class = "menu-item"> Annandale, Virginia 
                 <span>3200 Duckling Dr. Annandale, Virginia, 23930</span>
@@ -61,7 +60,7 @@
         </fieldset>
 
          <!-- Harrisonburg -->
-        <fieldset class = "center-fieldset">
+        <fieldset class = "center-fieldset address">
             <legend>Harrisonburg, Virginia</legend>
             <div class = "menu-item"> Harrisonburg, Virginia 
                 <span>292 Centille Run Harrisonburg, Virginia, 23930</span>
@@ -70,5 +69,6 @@
     </div>
     <!-- Background Image -->
     <img src="images/setting.jpeg" alt="setting" class = "background">
+    <script src = "js/header.js"> </script>
 </body>
 </html>

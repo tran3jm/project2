@@ -1,0 +1,14 @@
+
+.address {
+    margin-top: 3%;
+}
+
+@media (max-width: 1360px) {
+    
+    .address {
+        padding: 30px;
+        margin-top: 0;
+        margin-bottom: 6%;
+        width: 70%;
+    }
+}
