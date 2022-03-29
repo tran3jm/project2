@@ -3,6 +3,10 @@
 /* 
  * Styling Elements.
  */
+
+button {
+    transition: 0.3s;
+}
 legend {
     font-size: 30px;
 }
@@ -31,6 +35,7 @@ fieldset {
     padding: 10px;
     border: 10px;
     font-family: Optima, sans-serif;
+    transition: 0.3s;
 }
 
 /* ---------Fits image and fieldset on div --------*/
