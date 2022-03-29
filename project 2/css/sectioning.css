@@ -62,7 +62,34 @@ div.flex-container {
     justify-content: space-evenly;
     align-items: flex-end;
 }
-div.flex-container img{
+
+.drink-image-container{
+    position: relative;
+  width: 100%;
+  max-width: 200px;
+}
+
+.drink-image-container img {
+    width: 100%;
+  height: auto;
+}
+.left-button{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* div.flex-container img{
     height: 625px;
     width: auto;
     object-fit: cover;
@@ -71,11 +98,11 @@ div.flex-container img{
     position: relative;
     padding-bottom: 10%;
     object-position: 0% 75%;
-}
-div.flex-item {
+} */
+/* div.flex-item {
     border-left-style: none;
     border-right-style: none;  
-}
+} */
 
 /* ------------------------------------------------ */
 

@@ -36,8 +36,9 @@
         <h1 class="section-page">DRINK MENU</h1>
     </div>
     <div class="flex-container">
-        <div class="drink-gallery flex-item">
-            <img src="images/thaitea.jpeg" alt="thai tea">
+        <div class="drink-image-container flex-item">
+            <img class="drink-slideshow" src="images/thaitea.jpeg" alt="thai tea">
+            <img class="drink-slideshow" src="images/noodles.jpeg" alt="noodles" class="split-image">
             <!--   COMMET <img>>    --> 
             <!--   COMMET <img>>    --> 
             <!--   COMMET <img>>    --> 
@@ -47,6 +48,8 @@
             <!--   COMMET <img>>    --> 
             <!--   COMMET <img>>    --> 
             <!--   COMMET <img>>    --> 
+            <button class="left-button" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="right-button" onclick="plusDivs(+1)">&#10095;</button>
         </div>
         <!-- Menu items -->
         <div class="menu-item flex-item">
@@ -104,6 +107,7 @@
         <!--   COMMET <img>>    --> 
         
         <!-- Menu items -->
+        
         <fieldset class="center-fieldset">
             <legend>FOOD</legend>
             <div class="menu-item"> Drunken Noodles
@@ -143,6 +147,7 @@
 
     <img src="images/setting.jpeg" alt="setting" class = "background">
     <script src = "js/header.js"> </script>
+    <script src = "js/gallary.js"></script>
 </body>
 
 </html>
