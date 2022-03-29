@@ -10,17 +10,15 @@
 <body>
     <!-- Header with logo and dropdown icon w/ table -->
     <header>
-        <img src="images/minimal.jpg" alt="logo" class = "logo" id = "left">
-        <div class = "dropdown">
-            <button class="dropbtn" id = "right">☰</button>
-            <div class="dropdown-content">
-                <a href="index.html">HOME</a>
-                <a href="about.html">OUR STORY</a>
-                <a href="menu.html">MENU</a>
-                <a href="contact.html">CONTACT US</a>
-                <a href="location.html">LOCATION</a>
-            </div>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">HOME</a>
+            <a href="about.html">OUR STORY</a>
+            <a href="menu.html">MENU</a>
+            <a href="contact.html">CONTACT US</a>
+            <a href="location.html">LOCATION</a>
         </div>
+        <span style="font-size:30px;color:black;cursor:pointer" onclick="openNav()" class = "sidebar-icon">&#9776;</span>
     </header>
 
     <!-- Cover page with text -->
@@ -52,10 +50,11 @@
                 <legend>Message: *</legend>
                 <input type="email" id="message" name="message" class = "message"><br><br>
             </fieldset>
-            <input type="submit" value="Submit" class = "button">
+            <input type="submit" value="Submit" class = "submit">
         </form>
     </div>
     <!-- Background Image -->
     <img alt="setting" class = "background" src="images/setting.jpeg">
+    <script src = "js/header.js"> </script>
 </body>
 </html>

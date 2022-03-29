@@ -66,13 +66,14 @@ legend {
 }
 
 span {
-    color: #a3a3a3;
     font-family: "Optima";
     font-size: 15px;
     font-weight: 300;
 }
 /* ------------------------------------------------ */
-
+.subtext {
+    color: #a3a3a3;
+}
 /*
  * Styling classes
  */
