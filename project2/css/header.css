@@ -1,0 +1,110 @@
+
+header {
+    border: none;
+}
+
+.profile {
+  display: none;
+}
+
+.nav {
+    border: none;
+    padding-top: 75px;
+    padding-left: 100px;
+    padding-right: 100px;
+  
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+  
+    font-size: 17px;
+    font-weight: 550;
+    font-family: Tahoma, sans-serif;
+  }
+
+/* 
+ * Styling ID's
+ */
+#left {
+    float:left; 
+    background-color: white;
+    border-color: white;
+    padding: 5px;
+  
+  }
+  
+  #right {
+    float:right;
+    background-color: white;
+    left: inherit;
+  }
+
+.sidebar-icon {
+    padding-left: 15px;
+}
+
+.sidenav {
+    border: none;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    margin: 6px 12px 6px 12px;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    font-family: Tahoma, sans-serif;
+  }
+
+  .altmenu {
+      display: none;
+  }
+  
+  @media screen and (max-height: 1100px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+  @media (max-width: 1100px) {
+    .altmenu {display: flow-root;}
+    .nav {display: none;}
+    .profile {
+      position: absolute;
+      right: 40px;
+      display: block;
+      padding: 5px 2px 0 0;
+      height: 30px;
+      float: right;
+    }
+    header {
+      display: flex;
+      flex-direction: row;
+    }
+
+  }
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- project2! -->
+<head>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/sectioning.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="modernlily" href="images/minimal.jpg">
+  <title> Modern Lily </title>
+</head>
+<body class = "background">
+   <!-- Header with link to each page -->
+  <header>
+    <div class = "nav">
+      <a href="index.html">HOME</a>
+      <a href="about.html">OUR STORY</a>
+      <a href="menu.html">MENU</a>
+      <a href="contact.html">CONTACT US</a>
+      <a href="location.html">LOCATION</a>
+    </div>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">HOME</a>
+        <a href="about.html">OUR STORY</a>
+        <a href="menu.html">MENU</a>
+        <a href="contact.html">CONTACT US</a>
+        <a href="location.html">LOCATION</a>
+    </div>
+    <span style="font-size:30px;color:black;cursor:pointer;width:30px" onclick="openNav()" class="sidebar-icon altmenu">&#9776;</span>
+    <a href="login.html"><img src = "images/sign_in.png" class = "profile"></a>
+  </header>
+
+  <!-- Restaurant cover image -->
+  <div>
+    <img src="images/modernlily.png" alt="cover" class="heading">
+    <h1 class = "lily-descrip"> AUTHENTIC · HIGHLY-ACCLAIMED · ORIGINAL </h1>
+    <img src="images/arrow.png" alt="peter changs" class="arrow">
+  </div>
+
+  <!-- Mini-description of restaurant -->
+  <div class = "div-section">
+    <img src = "images/location.jpeg" alt="location" class = "skinny-image">
+    <h1>What is Modern Lily?</h1>
+    <p style="font-size:25px"> Modern Lily is a restaurant with fine, affordable cuisine that is fusian-asian inspired.
+        Our creative, delcious food and beverages take from multiple asian cultures 
+        and comes together to create a unique expierence of fine-dining. Modern Lily  
+        has a little something for everyone. Come dine with us.
+    </p>
+    <!-- Button click directs to about page -->
+    <button class="click-button" onclick="window.location.href='about.html'">LEARN MORE</button>
+  </div>
+  <!-- Background Image and Javascript -->
+  <script src = "js/general_js.js"></script>
+  <script src = "js/header.js"> </script>
+</div>
+</body>
+</html>
