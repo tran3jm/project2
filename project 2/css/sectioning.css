@@ -69,20 +69,21 @@ div.flex-container {
 }
 
 .drink-image-container{
-    position: relative;
+  position: relative;
   width: 100%;
-  max-width: 200px;
+  max-width: 475px;
 }
 
 .drink-image-container img {
-    width: 100%;
-  height: auto;
+  width: 100%;
+  max-width: 500px;
 }
+
 .left-button{
-    position: absolute;
+  position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-423%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #555;
   color: white;
@@ -93,6 +94,21 @@ div.flex-container {
   border-radius: 5px;
   text-align: center;
 }
+.right-button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(323%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
 
 /* div.flex-container img{
     height: 625px;
