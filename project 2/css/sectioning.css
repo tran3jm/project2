@@ -83,7 +83,7 @@ div.flex-container {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-423%, -50%);
+  transform: translate(-333%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #555;
   color: white;
@@ -98,7 +98,7 @@ div.flex-container {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(323%, -50%);
+    transform: translate(412%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: #555;
     color: white;
