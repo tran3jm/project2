@@ -8,7 +8,7 @@
 }
 
 div {
-    margin: 0 50px 0 10px;
+    margin: 0 50px 0 12px;
 }
 
 header {
@@ -20,7 +20,8 @@ span {
 }
 
 .container{
-    display: flex;
+    margin: auto;
+    margin-top: 10%;
     position: relative;
     color: white;
     max-width: 430px;
@@ -43,14 +44,14 @@ span {
 
 .container .form{
     width: 50%;
-    padding: 30px;
+    padding: 44px;
     transition: margin-left 0.18s ease;
     background-color: rgba(255, 255, 255, 0);
 }
 
 .container.active .login{
     background-color: rgba(255, 255, 255, 0);
-    margin-left: -55%;
+    margin-left: -58%;
     opacity: 0;
     transition: margin-left 0.18s ease, opacity 0.15s ease;
 }
@@ -196,4 +197,8 @@ span {
 
 ::placeholder {
     color: white;
+}
+
+.transition-between {
+    text-align: center;
 }

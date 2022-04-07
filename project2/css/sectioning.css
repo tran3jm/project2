@@ -7,6 +7,7 @@
 button {
     transition: 0.3s;
 }
+
 legend {
     font-size: 30px;
 }
@@ -46,19 +47,17 @@ fieldset {
 }
 
 .split-image {
-    height: 625px;
+    height: 700px;
     width: 55%;
     object-fit: cover;
     margin: 20px 50px 0 ;
     float: left;            /* Splits image to be on the left */
     position: relative;
     padding-bottom: 10%;
-    object-position: 0% 75%;
+    object-position: 0% 50%;
+
 }
 
-.center-fieldset {
-    margin: 0px 0px 40px;   /* Fieldset right */
-}
 /*-------------Flex Box for menu items------------- */
 
 div.flex-container {
@@ -131,7 +130,11 @@ div.flex-container {
  */
 
 
- @media (max-width: 1360px) {
+ @media (max-width: 1113px) {
+
+    .carousel-control-next {
+        right: 0%;
+    }
 
     .split-menu {
         display: flex;
@@ -140,10 +143,11 @@ div.flex-container {
     }
 
     .split-image {
-        margin: auto;
         height: 400px;
-        width: 80%;
-        object-position: 0% 85%;
+        width: 100%;
+        object-position: 0% 50%;
+        height: 625px;
+        margin: 20px 0px 0px 0px ;
 
     }
 
@@ -165,7 +169,7 @@ div.flex-container {
     .div-section {
         display: flex; /* or inline-flex */
         flex-direction: column;
-        padding: 150px;
+        padding: 10px;
 
     }
 
@@ -178,3 +182,72 @@ div.flex-container {
     }
 
 }
+
+/* asdfghjkl; */
+/*-------------Flex Box for menu items------------- */
+
+div.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.drink-image-container{
+  position: relative;
+  width: 100%;
+  max-width: 475px;
+}
+
+.drink-image-container img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.left-button{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-333%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.right-button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(412%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+/* div.flex-container img{
+    height: 625px;
+    width: auto;
+    object-fit: cover;
+    margin: 20px 50px 0 ;
+    float: left;            
+    position: relative;
+    padding-bottom: 10%;
+    object-position: 0% 75%;
+} */
+/* div.flex-item {
+    border-left-style: none;
+    border-right-style: none;  
+} */
+
+/* ------------------------------------------------ */

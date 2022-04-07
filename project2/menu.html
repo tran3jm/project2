@@ -2,12 +2,17 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/sectioning.css">
     <link rel="modernlily" href="images/minimal.jpg">
-    <link rel="icon" href="images/minimal.jpg">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <title> Menu Modern Lily </title>
 </head>
 
@@ -22,15 +27,44 @@
             <a href="menu.html">MENU</a>
             <a href="contact.html">CONTACT US</a>
             <a href="location.html">LOCATION</a>
-            <a href="signin.html" class = "login-sidemenu">LOG IN</a>
-            <a href="signin.html">REGISTER</a>
         </div>
         <span style="font-size:30px;color:black;cursor:pointer" onclick="openNav()" class = "sidebar-icon">&#9776;</span>
     </header>
 
     <!-- Cover page with text -->
-    <div class="coverpage">
-        <img src="images/bowl.jpeg" alt="menu cover" style="width:100%;" class="coverimage">
+    <div>
+        <div id = "demo" class="coverimage carousel slide carousel-fade" data-ride="carousel">
+             <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class= "carousel-item active">
+                    <img src="images/bowl.jpeg" alt="menu cover" class="carousolimage">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/foods/noodles.jpeg" alt="Drunken Noodles" class="carousolimage">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/foods/dumplings.jpg" alt="Dumplings" class="carousolimage">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/foods/pork_bun.jpg" alt="Pork bun" class="carousolimage">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/foods/banh_mi.jpg" alt="Banh Mi" class="carousolimage"> 
+                </div>
+                <div class="carousel-item">
+                    <img src="images/foods/pho.jpg" alt="Pho" class="carousolimage"> 
+                </div>
+            </div>
+            
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+
         <h2 class="cover-text">OUR MENU</h2>
     </div>
 
@@ -38,47 +72,43 @@
     <div>
         <h1 class="section-page">DRINK MENU</h1>
     </div>
-        <div class="split-menu">
-            <img class="drink-slideshow split-image" src="images/thaitea.jpeg" alt="thai tea">
-            <img class="drink-slideshow split-image" src="images/noodles.jpeg" alt="noodles" class="split-image">
-            <button class="left-button" onclick="plusDivs(-1)">&#10094;</button>
-            <button class="right-button" onclick="plusDivs(+1)">&#10095;</button>
-        <!-- Menu items -->
-        <div class="menu-item flex-item">
-            <fieldset class="center-fieldset">
-                <legend>BEVERAGES</legend>
-                <div class="menu-item"> Pepsi
-                    <span>$2.50</span>
-                </div>
-                <div class="menu-item"> Diet Pepsi
-                    <span>$2.50</span>
-                </div>
-                <div class="menu-item"> Sprite
-                    <span>$2.50</span>
-                </div>
-                <div class="menu-item"> Ramune
-                    <span>$3.00</span>
-                </div>
-                <div class="menu-item"> Calpico
-                    <span>$3.00</span>
-                </div>
-                <div class="menu-item"> Iced Tea
-                    <span>$2.50</span>
-                </div>
-                <div class="menu-item"> Hot Tea
-                    <span>$3.50</span>
-                </div>
-                <div class="menu-item"> Thai Tea
-                    <span>$3.75</span>
-                </div>
-                <div class="menu-item"> Vietnamese Coffee
-                    <span>$4.50</span>
-                </div>
-                <div class="menu-item"> Boba
-                    <span>$4.50</span>
-                </div>
-            </fieldset>
-        </div>
+    <div class="flex-container split-menu">
+        
+        <img class="drink-slideshow split-image" src="images/thaitea.jpeg" alt="thai tea">
+    <!-- Menu items -->
+        <fieldset class="center-fieldset">
+            <legend>BEVERAGES</legend>
+            <div class="menu-item"> Pepsi
+                <span>$2.50</span>
+            </div>
+            <div class="menu-item"> Diet Pepsi
+                <span>$2.50</span>
+            </div>
+            <div class="menu-item"> Sprite
+                <span>$2.50</span>
+            </div>
+            <div class="menu-item"> Ramune
+                <span>$3.00</span>
+            </div>
+            <div class="menu-item"> Calpico
+                <span>$3.00</span>
+            </div>
+            <div class="menu-item"> Iced Tea
+                <span>$2.50</span>
+            </div>
+            <div class="menu-item"> Hot Tea
+                <span>$3.50</span>
+            </div>
+            <div class="menu-item"> Thai Tea
+                <span>$3.75</span>
+            </div>
+            <div class="menu-item"> Vietnamese Coffee
+                <span>$4.50</span>
+            </div>
+            <div class="menu-item"> Boba
+                <span>$4.50</span>
+            </div>
+        </fieldset>
 
     </div>
 
@@ -87,10 +117,8 @@
         <h1 class="section-page">FOOD MENU</h1>
     </div>
     <div class="split-menu">
-        <img src="images/noodles.jpeg" alt="noodles" class="split-image">
-        
         <!-- Menu items -->
-        
+        <img src="images/foods/noodles.jpeg" alt="Drunken Noodles" class="split-image">
         <fieldset class="center-fieldset">
             <legend>FOOD</legend>
             <div class="menu-item"> Drunken Noodles
@@ -124,10 +152,10 @@
                 <span>$9.50</span>
             </div>
         </fieldset>
-        <a href="https://www.yelp.com/" class = "yelp" >Don't be shy! Give us a rating ★★★★★</a>
     </div>
     <script src = "js/header.js"> </script>
     <script src = "js/gallary.js"></script>
+    <a href="https://www.yelp.com/" class = "yelp" >Don't be shy! Give us a rating ★★★★★</a>
 </body>
 
 </html>
