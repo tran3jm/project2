@@ -5,7 +5,9 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/sectioning.css">
   <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/greeting.css">
   <link rel="modernlily" href="images/minimal.jpg">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <title> Modern Lily </title>
 </head>
 <body>
@@ -30,6 +32,12 @@
     <span style="font-size:30px;color:black;cursor:pointer" onclick="openNav()" class="sidebar-icon altmenu">&#9776;</span>
 
   </header>
+  <!-- Dynamic Greeting --> 
+  <div class="popup">
+    <button id="close">&times;</button>
+    <h1 id="greeting">This is the title.</h1>
+  </div>
+
 
   <!-- Restaurant cover image -->
   <div>
@@ -54,5 +62,6 @@
   <img src="images/setting.jpeg" id="overlay" alt="setting" class = "background">
   <script src = "js/general_js.js"></script>
   <script src = "js/header.js"> </script>
+  <script src = "js/greeting.js"> </script>
 </body>
 </html>
