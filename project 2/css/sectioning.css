@@ -74,18 +74,21 @@ div.flex-container {
   max-width: 475px;
 } */
 
-.drink-image-container img {
-  width: 100%;
-  max-width: 500px;
-}
 
-.left-button{
+.location-container {
+    position: relative;
+    width: 100%;
+
+}
+.location-container img {
+    position: relative;
+}
+.location-container .left-button{
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-333%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
+  left: 0%;
+  transform: translate(111%, 750%);
+  background-color: black;
   color: white;
   font-size: 16px;
   padding: 12px 24px;
@@ -94,13 +97,13 @@ div.flex-container {
   border-radius: 5px;
   text-align: center;
 }
-.right-button{
+.location-container .right-button{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(412%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    top: 0%;
+    right: 40%;
+    transform: translate(-35%, 750%);
+    /* -ms-transform: translate(-50%, -50%); */
+    background-color: black;
     color: white;
     font-size: 16px;
     padding: 12px 24px;
@@ -109,51 +112,17 @@ div.flex-container {
     border-radius: 5px;
     text-align: center;
   }
-  .left-button-food{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-333%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #555;
-    color: white;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    text-align: center;
-  }
-  .right-button-food{
+  .location-label{
+      width:  225px;
       position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(412%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      background-color: #555;
-      color: white;
-      font-size: 16px;
-      padding: 12px 24px;
-      border: none;
-      cursor: pointer;
-      border-radius: 5px;
       text-align: center;
-    }
-
-/* div.flex-container img{
-    height: 625px;
-    width: auto;
-    object-fit: cover;
-    margin: 20px 50px 0 ;
-    float: left;            
-    position: relative;
-    padding-bottom: 10%;
-    object-position: 0% 75%;
-} */
-/* div.flex-item {
-    border-left-style: none;
-    border-right-style: none;  
-} */
+      background-color: black;
+      color: white;
+      left: 15%;
+      transform: translate(-50.5%, 698%);
+      font-size: 20px;
+ 
+  }
 
 /* ------------------------------------------------ */
 

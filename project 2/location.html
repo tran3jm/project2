@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/sectioning.css">
     <link rel="stylesheet" href="css/location.css">
     <link rel="modernlily" href="images/minimal.jpg">
+    
     <title> Modern Lily Locations </title>
 </head>
 <body>
@@ -33,8 +35,39 @@
         <h1 class = "section-page"> Store locations</h1>
     </div>
     <div class = "split-menu">
-        <img src ="images/location2.jpg" alt = "lily location" class = "split-image">
-
+        <div class="location-container">
+            <div class="location-gallery">
+                <img src ="images/locations/richmond.jpg" alt = "Richmond Location" class = "split-image"> 
+                    <p class="location-label">
+                  Richmond, Virginia
+                    </p>
+            </div>
+            <div class="location-gallery">
+                <img src ="images/locations/arlington.jpg" alt = "Arlington Location" class = "split-image"> 
+                    <p class="location-label">
+                  Arlington, Virginia
+                    </p>
+            </div>
+            <div class="location-gallery">
+                <img src ="images/locations/annandale.jpg" alt = "Annandale Location" class = "split-image"> 
+                    <p class="location-label">
+                  Annandale, Virginia
+                    </p>
+            </div>
+            <div class="location-gallery">
+                <img src ="images/locations/harrisonburg.jpg" alt = "Harrisonburg Location" class = "split-image"> 
+                    <p class="location-label">
+                  Harrisonburg, Virginia
+                    </p>
+            </div>
+            <!-- <img src ="images/locations/richmond.jpg" alt = "Richmond Location" class = "split-image location-gallery">
+            <img src ="images/locations/arlington.jpg" alt = "Arlington Location" class = "split-image location-gallery">
+            <img src ="images/locations/annandale.jpg" alt = "Annandale Location" class = "split-image location-gallery">
+            <img src ="images/locations/harrisonburg.jpg" alt = "Harrisonburg Location" class = "split-image location-gallery"> -->
+        
+            <button class="left-button" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="right-button" onclick="plusDivs(+1)">&#10095;</button>
+        </div>
          <!-- Richmond -->
         <fieldset class = "center-fieldset address">
             <legend>Richmond, Virginia</legend>
@@ -70,5 +103,6 @@
     <!-- Background Image -->
     <img src="images/setting.jpeg" alt="setting" class = "background">
     <script src = "js/header.js"> </script>
+    <script src = "js/gallary.js"></script>
 </body>
 </html>
